@@ -12,12 +12,15 @@
         <img id="background" src="./static/images/background.jpg">
         </img>
     </div>
-    <h2 style="margin: 2rem 0rem 2rem 0rem">Here, we add a video or two</h2>
+    <h2 style="margin: 2rem 0rem 2rem 0rem; padding: 0.5rem 0.5rem 0.5rem 0.5rem; background: #000;">Welcome, I wish you an awesome training session.</h2>
         <video id="video" width="500px" height="400px" hidden controls="controls" controlsList="nodownload">
         <source 
 src="./static/videos/video.mp4" 
                 type="video/mp4" />
        </video>
-       <button id="login_btn" class="btn">Log in</button>
+       <form style="display: flex; flex-direction: column;">
+          <input id="password_field" type="password" style="height: 2rem; font-size: 1rem; text-align: center;">
+         <button id="login_btn" class="btn">Log in</button>
+       </form>
   </body>
 </html>
