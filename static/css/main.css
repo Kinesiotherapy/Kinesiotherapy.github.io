@@ -117,7 +117,8 @@ body {
 
 footer {
   padding: 1rem 0;
-  color: var(--text-muted);
+  color: #ccc;
+  background-color: #000a;
   text-align: center;
   display: grid;
 }
