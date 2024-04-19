@@ -5,54 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kinesiotherapy -- Online Fitness</title>
     <link rel="stylesheet" href="./static/css/main.css" />
-    <script defer src="./static/scripts/loadPage.js"></script>
   </head>
   <header class="header">
-    <span class="header--element"><a class="header--link">Login </a></span>
-    <span class="header--element"
-      ><a class="header--link">Get Access to Last Video</a></span
-    >
-    <span class="header--element"><a class="header--link">My courses</a></span>
+    <div class="header--container">
+      <img style="width: 15%;" src = "./static/images/profile/Dina_clipped_circle.svg" alt="My profile picture"/>
+      <span class="header--element"><a href="./index.html" class="header--link">Home </a></span>
+      <span class="header--element"
+        ><a class="header--link" href="./video_download.html">My last video</a></span
+      >
+      <span class="header--element"><a class="header--link">My courses</a></span>
+    </div>
   </header>
   <body>
     <div class="background">
       <!-- <img id="background" src="./static/images/background.jpg">
         </img> -->
     </div>
-    <h2 class="heading">Welcome, I wish you an awesome training session.</h2>
-    <video
-      id="video"
-      width="500px"
-      height="400px"
-      hidden
-      controls="controls"
-      controlsList="nodownload"
-    >
-      <source src="./static/videos/video.mp4" type="video/mp4" />
-    </video>
-    <form style="display: flex; flex-direction: column">
-      <input
-        id="password_field"
-        type="password"
-        placeholder="Please enter the password here"
-        style="height: 2rem; font-size: 1rem; text-align: center"
-      />
-      <button id="login_btn" class="btn">Log in</button>
-    </form>
+    <h2 class="heading">Welcome, my name is Dina Ivanova</h2>
+    <p>I am a physical therapist giving courses. My courses are very fun 
+      and I do my best to improve the condition of all my clients. For this, they can contact me with 
+    all their problems, because I believe that mind and body need to be healthy!</p>
   </body>
   <footer class="footer">
     <div class="footer__elements"></div>
-    <p class="footer__elements--author">
-      Made by
-      <a class="footer--link--author" href="Benjamin.html"> Benjamin Köhler </a>
-    </p>
-    <p class="footer__elements--author">
-      <small>
-        <a class="footer--link--author" href="dice_game.html">
-          A Dice Game
-        </a></small
-      >
-    </p>
     <p class="footer__elements--column">
       <small>Copyright &copy;2024. Dina I. Ivanova. All rights reserved.</small>
     </p>
