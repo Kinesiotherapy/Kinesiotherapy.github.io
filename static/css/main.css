@@ -50,7 +50,13 @@ p {
   height: 100%;
   width: 100%;
   z-index: -10;
-  background-image: linear-gradient(to bottom right, #feee, #ddde);
+  /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
+  background-image: linear-gradient(
+    to bottom right,
+    #fff 0%,
+    #ccc 90%,
+    #777 100%
+  );
 }
 
 .heading {
@@ -128,7 +134,8 @@ footer {
   /* background-color: #000a; */
   text-align: center;
   display: grid;
-  background-image: linear-gradient(to bottom right, #0001, #3332);
+  /* justify-self: self-end; */
+  /* background-image: linear-gradient(to bottom right, #0001, #3332); */
 }
 
 .footer__elements--author {
@@ -229,7 +236,7 @@ footer {
   padding: 0.75rem 3rem;
   border: none;
   color: black;
-  background: green;
+  background: #63b7b0;
   transition: background-color 0.75s ease-in-out;
   cursor: pointer;
   font-size: 16px;
@@ -237,7 +244,7 @@ footer {
 }
 
 .btn:hover {
-  background-color: greenyellow;
+  background-color: #84d8d1;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
