@@ -126,6 +126,22 @@ body {
 
 .header {
   position: relative;
+  top: 1rem;
+  background-image: linear-gradient(to bottom right, #ffffff 0%, #83ccf7 70%);
+}
+
+.header--element {
+  font-size: 2rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.header--link {
+  text-decoration: none;
+  color: black;
+}
+
+.header--link:hover {
+  background-image: linear-gradient(to bottom right, #ffffff 0%, #3bb54a 70%);
 }
 
 footer {
