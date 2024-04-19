@@ -1,5 +1,5 @@
 :root {
-  --text-dark: #85dad7ff;
+  --text-dark: #111;
   --text-light: #fbf2f2;
   --text-muted: #595959;
   --text-form: #000;
@@ -42,7 +42,7 @@ p {
   justify-content: center;
 } */
 
-#background {
+.background {
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -50,6 +50,13 @@ p {
   height: 100%;
   width: 100%;
   z-index: -10;
+  background-image: linear-gradient(to bottom right, #feee, #ddde);
+}
+
+.heading {
+  margin: 2rem 0rem 2rem 0rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  /*background: #000;*/
 }
 
 @media (max-width: 750px) {
@@ -118,9 +125,10 @@ body {
 footer {
   padding: 1rem 0;
   color: #ccc;
-  background-color: #000a;
+  /* background-color: #000a; */
   text-align: center;
   display: grid;
+  background-image: linear-gradient(to bottom right, #0001, #3332);
 }
 
 .footer__elements--author {
@@ -135,7 +143,7 @@ footer {
 }
 
 .footer__elements--column {
-  color: var(--background-color);
+  color: var(--text-dark);
 }
 
 .footer--link--author {
@@ -221,15 +229,15 @@ footer {
   padding: 0.75rem 3rem;
   border: none;
   color: black;
-  background: #e2e8f0;
-  transition: background-color 0.3s ease-in-out;
+  background: green;
+  transition: background-color 0.75s ease-in-out;
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background-color: #bdd1eb;
+  background-color: greenyellow;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
